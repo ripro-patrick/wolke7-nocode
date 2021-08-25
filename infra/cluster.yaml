@@ -2,9 +2,9 @@
 apiVersion: cluster.civo.crossplane.io/v1alpha1
 kind: CivoKubernetes
 metadata: 
-  name: CLUSTER
+  name: wolke7-nocode
 spec:
-  name: CLUSTER
+  name: wolke7-nocode
   instances: 2
   size: g3.k3s.medium
   # applications: 
