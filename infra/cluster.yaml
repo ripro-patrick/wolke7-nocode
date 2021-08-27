@@ -11,6 +11,6 @@ spec:
     # - "traefik"
   connectionDetails:
     connectionSecretNamePrefix: "cluster-details"
-    connectionSecretNamespace: "default"
+    connectionSecretNamespace: "argocd"
   providerConfigRef:
     name: civo-provider
