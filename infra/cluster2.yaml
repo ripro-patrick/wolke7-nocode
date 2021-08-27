@@ -1,0 +1,17 @@
+apiVersion: wolke7.info/v1alpha1
+kind: CompositeCluster
+metadata:
+  name: wolke7-nocode-cluster2
+  labels:
+    cluster-owner: priegler
+spec:
+  compositionRef:
+    name: cluster-civo
+  parameters:
+    # Possible values small, medium, large
+    nodeSize: small
+    # version: "1.20"
+    minNodeCount: 3
+  writeConnectionSecretToRef:
+    namespace: argocd
+    name: wolke7-nocode-cluster2
