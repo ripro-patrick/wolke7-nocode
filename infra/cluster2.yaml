@@ -5,6 +5,7 @@ metadata:
   labels:
     cluster-owner: priegler
 spec:
+  id: wolke7-nocode-cluster2
   compositionRef:
     name: cluster-civo
   parameters:
